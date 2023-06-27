@@ -1,0 +1,33 @@
+.flash{
+
+    transition: .3s ease-in-out;
+    animation: flash 2s ease-in-out infinite;
+}
+
+@keyframes flash {
+    0%{opacity: 0;color:blue}
+    50%{opacity: 1;color:orange}
+    100%{opacity: 0;color:blue}
+
+}
+
+.car-div-show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.information-div-show-1{
+    animation: fade .4s ease-in-out;
+}
+.done-div-show{
+    animation: fade 1s ease-in-out;
+    overflow: hidden;
+
+}
+.reservationProcContent{
+    overflow-y: scroll;
+}
+.txt-disabled{
+    background-color:rgb(241, 241, 241) !important;
+}

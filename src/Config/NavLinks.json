@@ -1,0 +1,27 @@
+[
+  {
+    "label": "Accueil",
+    "to": "/",
+    "href":"#accueil"
+  },
+  {
+    "label": "Comment",
+    "to": "/",
+    "href": "#comment"
+  },
+  {
+    "label": "Equipe",
+    "to": "/",
+    "href": "#equipe"
+  },
+  {
+    "label": "Témoignages",
+    "to": "/",
+    "href": "#testimonials"
+  },
+  {
+    "label": "Contact",
+    "to": "/",
+    "href": "#contact"
+  } 
+]
